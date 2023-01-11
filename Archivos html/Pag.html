@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Venta de Cuentas Premium</title>
+    <style>
+      /* Este es el estilo para la animación */
+      /* El estilo se aplica a todos los elementos de la lista */
+      ul li {
+        animation: fadeIn 1s ease-in-out;
+      }
+      
+      /* La animación se llama fadeIn y dura 1 segundo */
+      /* La transición entre estados se hace con suavidad */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>¡Bienvenido a nuestra tienda de cuentas premium!</h1>
+    <p>Ofrecemos una variedad de cuentas premium a precios accesibles.</p>
+    <h2>Servicios disponibles</h2>
+    <ul>
+      <li>Netflix</li>
+      <li>Spotify</li>
+      <li>Amazon Prime</li>
+      <li>Disney+</li>
+    </ul>
+    <h2>Planes disponibles</h2>
+    <ul>
+      <li>Plan básico: $9.99/mes</li>
+      <li>Plan estándar: $13.99/mes</li>
+      <li>Plan premium: $17.99/mes</li>
+    </ul>
+    <h2>Características de cada plan</h2>
+    <ul>
+      <li>Plan básico: acceso básico a contenido</li>
+      <li>Plan estándar: acceso a contenido en alta definición y a múltiples dispositivos</li>
+      <li>Plan premium: acceso a contenido en 4K, a múltiples dispositivos y contenido exclusivo</li>
+    </ul>
+    <h2>Formas de pago</h2>
+    <ul>
+      <li>Tarjeta de crédito</li>
+      <li>Paypal</li>
+    </ul>
+    <form action="/buy" method="POST">
+        <label for="service-select">Selecciona tu servicio:</label>
+        <select id="service-select" name="service">
+          <option value="netflix">Netflix</option>
+          <option value="spotify">Spotify</option>
+          <option value="amazon-prime">Amazon Prime</option>
+          <option value="disney+">Disney+</option>
+        </select>
+        <br>
+        <label for="plan-select">Selecciona tu plan:</label>
+        <select id="plan-select" name="plan">
+          <option value="basic">Plan básico</option>
+          <option value="standard">Plan estándar</option>
+          <option value="premium">Plan premium</option>
+        </select>
+        <br>
+        <label for="email-input">Ingresa tu correo electrónico:</label>
+        <input type="email" id="email-input" name="email">
+        <br>
+        <label for="payment-select">Selecciona tu método de pago:</label>
+        <select id="payment-select" name="payment
+  </body>
+</html>
